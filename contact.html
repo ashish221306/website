@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>new website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8" />
+    
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+
+<div class="wrap">
+  <h1>website</h1>
+  <hr>
+   <navbar>
+       <a href="index.html">HOME</a>
+       <a href="about.html">ABOUT</a>
+       <a href="blog.html">BLOGS</a>
+       <a href="contact.html">CONTACT</a>
+       <a id="menu" href="">MENU</a>
+   </navbar>
+   <div class="menu">
+       <a href="">Link1</a>
+         <a href="">link2</a>
+           <a href="">link3</a>
+             <a href="">link4</a>
+               <a href="">link5</a>
+            
+   </div>
+   <hr>
+   <h1>contact
+   </h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos, rerum ad minus obcaecati quasi? Excepturi amet minus dolorum quisquam necessitatibus nemo vero soluta quod ut molestias, eaque perferendis? Tenetur!</p>
+   
+   <hr>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maxime totam tenetur earum, dolorum. Qui atque sunt alias enim in, labore, iure voluptatum odit provident inventore culpa quasi! Ea, explicabo!</p>
+    </div>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $("#menu").click(function(e){
+        e.preventDefault();
+        $(".menu").slideToggle("slow");
+    })
+   
+    
+    </script>
+    
+</body>
+<footer>
+    <p>&copy;2019 | all rights reserved designed by you</p>
+</footer>
+</html>
